@@ -1,0 +1,197 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  color: #222;
+  background: #f4f4f4;
+}
+
+header {
+  display: flex;
+  gap: 20px;
+  padding: 12px 24px;
+  background: #1f4e79;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+header .brand {
+  margin-right: auto;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+h1 {
+  margin: 0 0 16px;
+  font-size: 26px;
+}
+
+h2 {
+  margin: 0 0 12px;
+  font-size: 19px;
+}
+
+h3 {
+  margin: 20px 0 8px;
+  font-size: 16px;
+}
+
+.card {
+  padding: 16px;
+  margin-bottom: 16px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  overflow-x: auto;
+}
+
+.narrow {
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.narrow h1 {
+  text-align: center;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.field {
+  margin-bottom: 12px;
+}
+
+label {
+  display: block;
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  font: inherit;
+  border: 1px solid #999;
+  border-radius: 4px;
+}
+
+.error {
+  margin: 4px 0 0;
+  color: #b00020;
+  font-size: 14px;
+}
+
+.message {
+  padding: 8px 12px;
+  color: #b00020;
+  background: #fde8ea;
+  border-radius: 4px;
+}
+
+.warning {
+  padding: 8px 12px;
+  margin-bottom: 16px;
+  color: #6b4a00;
+  background: #fff3cd;
+  border: 1px solid #e0c36a;
+  border-radius: 4px;
+}
+
+.warning p {
+  margin: 4px 0;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+button,
+.button {
+  padding: 8px 16px;
+  font: inherit;
+  color: #222;
+  text-decoration: none;
+  background: white;
+  border: 1px solid #999;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.primary {
+  color: white;
+  background: #1f4e79;
+  border-color: #1f4e79;
+}
+
+.danger {
+  color: #b00020;
+  border-color: #b00020;
+}
+
+.linkbutton {
+  padding: 0;
+  color: #b00020;
+  text-decoration: underline;
+  background: none;
+  border: none;
+}
+
+.links {
+  display: flex;
+  gap: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.num {
+  text-align: right;
+  white-space: nowrap;
+}
+
+.bold td {
+  font-weight: bold;
+}
+
+.total td {
+  font-weight: bold;
+  background: #f0f5fa;
+}
+
+.final {
+  margin: 16px 0 0;
+  font-size: 20px;
+  font-weight: bold;
+}
